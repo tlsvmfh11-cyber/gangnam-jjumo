@@ -1,0 +1,90 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans bg-primary text-white;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-accent via-accent-light to-accent
+           text-primary-dark font-bold rounded-lg
+           transition-all duration-300
+           hover:scale-105 hover:shadow-2xl hover:shadow-accent/50
+           active:scale-95;
+    background-size: 200% 100%;
+    animation: shimmer 3s infinite;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .heading-primary {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-6
+           bg-gradient-to-r from-accent via-accent-light to-accent
+           bg-clip-text text-transparent;
+  }
+
+  .heading-secondary {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold mb-4;
+  }
+
+  .card-premium {
+    @apply bg-gradient-to-br from-primary-light/50 to-primary/30
+           backdrop-blur-sm border border-accent/20
+           rounded-xl p-6 md:p-8
+           shadow-xl shadow-primary-dark/50
+           transition-all duration-300
+           hover:border-accent/40 hover:shadow-2xl hover:shadow-accent/10;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grid-pattern {
+    background-image:
+      linear-gradient(rgba(212, 175, 55, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(212, 175, 55, 0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}

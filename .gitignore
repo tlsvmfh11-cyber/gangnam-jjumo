@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# 원본 이미지 파일 (WebP만 사용)
+public/*.jpg
+public/*.jpeg
+!public/favicon*.png
+!public/apple-touch-icon.png
+!public/android-chrome*.png
+
+# Temp files
+*.tmp
+*.temp
+.cache/
