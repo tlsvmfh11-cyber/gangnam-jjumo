@@ -1,0 +1,5 @@
+# SPA 리다이렉트 (404 처리)
+/*    /index.html   200
+
+# WWW 리다이렉트 (선택 사항)
+# https://www.gangnam-jjumo.com/*  https://gangnam-jjumo.com/:splat  301!

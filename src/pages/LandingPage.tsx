@@ -62,8 +62,8 @@ const LandingPage = () => {
         "name": "강남 쩜오 프리미엄 라운지",
         "image": "https://via.placeholder.com/1200x630",
         "telephone": "01023033778",
-        "@id": "https://강남쩜오.com",
-        "url": "https://강남쩜오.com",
+        "@id": "https://gangnam-jjumo.com",
+        "url": "https://gangnam-jjumo.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "강남구 역삼동",
@@ -88,7 +88,7 @@ const LandingPage = () => {
             "@type": "ListItem",
             "position": 1,
             "name": "홈",
-            "item": "https://강남쩜오.com"
+            "item": "https://gangnam-jjumo.com"
           },
           {
             "@type": "ListItem",
@@ -116,16 +116,16 @@ const LandingPage = () => {
           content="2017년부터 강남 전문 운영 중. 현장 11년차 매니저가 직접 알려드리는 쩜오 시스템, 초이스 방법 완전 가이드. 재방문율 81%. 강남 쩜오만의 업계 최저가 보장. 유선 상담 시 정확한 견적 안내."
         />
         <meta name="keywords" content="강남 쩜오, 쩜오 가격, 쩜오 시스템, 강남 유흥, 역삼 쩜오, 선릉 쩜오" />
-        <link rel="canonical" href="https://강남쩜오.com" />
+        <link rel="canonical" href="https://gangnam-jjumo.com" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="강남 쩜오 프리미엄 가이드" />
         <meta property="og:title" content="강남 쩜오 시스템부터 가격까지 - 초보자도 10분이면 이해" />
         <meta property="og:description" content="2017년부터 강남 전문 운영. 재방문율 81%. 강남 쩜오만의 업계 최저가 보장. 유선 상담 시 정확한 견적 안내." />
-        <meta property="og:url" content="https://강남쩜오.com" />
-        <meta property="og:image" content="https://강남쩜오.com/og-image-optimized.webp" />
-        <meta property="og:image:secure_url" content="https://강남쩜오.com/og-image-optimized.webp" />
+        <meta property="og:url" content="https://gangnam-jjumo.com" />
+        <meta property="og:image" content="https://gangnam-jjumo.com/og-image-optimized.webp" />
+        <meta property="og:image:secure_url" content="https://gangnam-jjumo.com/og-image-optimized.webp" />
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -136,7 +136,7 @@ const LandingPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="강남 쩜오 시스템부터 가격까지 - 초보자도 10분이면 이해" />
         <meta name="twitter:description" content="2017년부터 강남 전문 운영. 재방문율 81%. 강남 쩜오만의 업계 최저가 보장." />
-        <meta name="twitter:image" content="https://강남쩜오.com/og-image-optimized.webp" />
+        <meta name="twitter:image" content="https://gangnam-jjumo.com/og-image-optimized.webp" />
         <meta name="twitter:image:alt" content="강남 쩜오 프리미엄 라운지" />
 
         {/* Schema.org JSON-LD */}

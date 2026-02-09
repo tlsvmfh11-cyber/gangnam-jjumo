@@ -1,4 +1,20 @@
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /*.json$
 
-Sitemap: https://강남쩜오.com/sitemap.xml
+# 크롤 속도 조절
+Crawl-delay: 1
+
+# 주요 검색엔진
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://gangnam-jjumo.com/sitemap.xml
